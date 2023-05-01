@@ -1,0 +1,112 @@
+.cwk_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/aguafondo2.jpg);
+}
+.cwk_sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color:rgba(13, 40, 194, 0.3);
+    color: white;
+    margin: auto;
+}
+.cwk_sombra hr{
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.cwk_sombra h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+.cwk_sombra p{
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+.cwk_cont_banner_link{
+    margin: 15px;
+    position: relative;
+}
+.cwk_cont_banner_link a{
+    position: relative;
+    display:inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+.cwk_cont_banner_link a:hover{
+    background-color: black;
+    color: yellow;
+}
+.cwk_banner_link{
+    opacity: 0;
+    animation: cwk_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: cwk_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+}
+.cwk_banner_link1{
+    opacity: 0;
+    animation: cwk_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: cwk_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+.cwk_banner_link2{
+    opacity: 0;
+    animation: cwk_keyframes_aparecer_de_arriba 1s;
+    -webkit-animation: cwk_keyframes_aparecer_de_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+.cwk_cont_banner_sec_1{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/claro.jpg);
+}
+.cwk_cont_banner_sec_1 .row{
+    background-color: rgba(1, 1 ,1 ,0.5);
+    color: white;
+    text-align: justify;
+    padding: 2%;
+}
+.cwk_cont_img{
+    padding: 5%;
+}
+.cwk_cont_banner_sec_3{
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/claro.jpg);
+}
+.cwk_cont_banner_sec_4{
+    height: auto;
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: aliceblue;
+}
+.cwk_cont_banner_sec_5{
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url(../img/fondo3.png);
+}

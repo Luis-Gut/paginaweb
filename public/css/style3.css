@@ -1,0 +1,82 @@
+*,*::after*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.titulos{
+    text-align: center;
+    color: red;
+}
+
+body{
+    background: fixed;
+    background-image: url(../img/fondo2.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    background-color: rgb(215, 249, 250);
+    color: rgb(6, 6, 7);
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.container{
+    text-align: center;
+    color: rgb(96, 29, 221);
+    position: relative;
+}
+
+.form_box{
+  width: auto;
+  height: auto;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  margin: -25px 0 0 -25px;
+  background-image: url(../img/tortuga.webp);
+  padding: 30px;
+  border-radius: 10px;
+}
+.input-row{position: relative; margin-bottom: 10px;}
+.form_box input:not([type="submit"],[type="checkbox"]),
+.form_box textarea,
+.form_box select{
+    width: 100%;
+    margin: 0 0 3px;
+    padding: 10px 10px;
+    font-size: 10px;
+    color: rgb(2, 2, 2);
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+.form_box textarea{height: 70px;}
+.form_box input[type="checkbox"]{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.check_label{
+    padding-left: 25px;
+}
+.form_box input[type="submit"]{
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    color: rgb(8, 8, 8);
+    background: cornflowerblue;
+}
+.form_box input[type="submit"]:hover{
+    background: yellow;
+}
+.error{
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: red;
+    display: none;
+}

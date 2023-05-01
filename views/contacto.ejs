@@ -1,0 +1,79 @@
+<%- include('../template/cabecera',{tituloweb: "Contacto"}) %>
+<%-  include('../template/navbar') %>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style3.css">
+<link rel="stylesheet" href="../css/style2.css">
+
+<body>
+    <hr>
+    <hr>
+    <hr>
+    <h1 class="titulos">Para cualquier acalaración no dude en contactarnos (ɔ◔‿◔)ɔ</h1>
+    <hr>
+    <div class="container">
+        <form name="custom_form" onsubmit="return validForm()" action="valid.html">
+            <div class="form_box">
+                <div class="input-row">
+                    <input type="text" placeholder="Nombre*" name="name">
+                    <span class="error">Por favor Ingresa tu Nombre</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="Email*" name="email">
+                    <span class="error">Por favor Ingresa tu Email</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="Telefono" name="phone">
+                    <span class="error"></span>
+                </div>
+                <div class="input-row">
+                    <select name="subject">
+                        <option>Pais*</option>
+                        <option>Mexico</option>
+                        <option>Estados Unidos</option>
+                        <option>Canada</option>
+                        <option>Colombia</option>
+                        <option>Brazil</option>
+                        <option>Costa Rica</option>
+                        <option>Otro Pais</option>
+                    </select>
+                    <span class="error">Por favor Ingresa tu subjet</span>
+                </div>
+                <div class="input-row">
+                    <textarea placeholder="Mensaje*" name="message"></textarea>
+                    <span class="error">Por favor Ingresa tu Mensaje</span>
+                </div>
+                <div class="input-row">
+                    <label class="check_label" for="conditions">Acepta los Terminos y Condiciones</label>
+                    <input type="checkbox" name="conditions" id="conditions">
+                    <span class="error">Por favor Acepta los Terminos y Condiciones</span>
+                </div>
+                <input type="submit" value="Enviar">
+                <hr>
+                <p>
+                <button type="reset">Limpiar</button>
+                </p>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script type="text/javascript" src="../js/custom.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script> 
+    <%-  include('../template/footer') %>
+</body>
+</html>

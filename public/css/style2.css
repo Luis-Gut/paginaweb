@@ -1,0 +1,87 @@
+body{
+    background: fixed;
+    background-image: url(../img/fondo2.jpg);
+  }
+  .formato{
+    text-align: center;
+          text-decoration-line: underline;
+          background-image: url(../img/claro.jpg);
+          background-size: cover;
+          font-size: xx-large;
+  }
+  .titulos{
+    font-size: 30px;
+    text-align: center;
+    color: crimson;
+    font-family: monospace;
+  }
+  table#mitabla {border-collapse: collapse;}
+  td.bajo {background-color: #1ff1e7;}
+  td.medio {background-color: #d63e3e;}
+  td.alto {background-color: #940014;}
+
+  td.a {background-color: #e6fa76;}
+  td.b {background-color: #eed920;}
+  td.c {background-color: #73e913;}
+
+  thead.cabecera tr td {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    padding: 15px;}
+  tbody.cuerpo tr td {
+  text-align: center;
+  font-size: 25px;
+  color: #092b5e;
+  padding: 10px;}
+  td {border-style: solid;
+    border-color: #d46318;
+    border-width: 5px;}
+#subtitulo{
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #560a81;
+text-align: center;
+}
+#seccion1{
+font-size: 25px;
+font-family: fantasy;
+color: rgb(45, 16, 206);
+text-align: justify;
+}
+.izquierda{
+float: left;
+}
+img.izquierda{
+width: 250px;
+height: 250px;}
+.romper{
+clear: both;
+}
+.texto1{
+font-size: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #092b5e;
+}
+#imagen1{
+text-align: center;
+}
+.noticias{
+font-family: cursive;
+font-size: 25px;
+text-align: center;
+color: #092b5e;
+}
+.noticias1{
+font-style: italic;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;
+background-image: url(../img/periodico.jpg);
+text-align: justify;
+font-size: 21px;
+}
+.logo{
+background-image: url(../img/somos.jpg);
+background-size: contain;
+}
