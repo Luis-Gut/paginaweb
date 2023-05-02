@@ -34,6 +34,13 @@ app.get("/privacity", (req, res) =>{
     res.render("privacity",{titulo: "Privacidad"})
 })
 
+app.get("/curso", (req, res) =>{
+    res.render("curso",{titulo: "Curso"})
+})
+
+app.get("/somos", (req, res) =>{
+    res.render("somos",{titulo: "Quienes somos"})
+})
 
 
 

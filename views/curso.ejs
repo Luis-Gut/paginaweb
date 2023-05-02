@@ -1,0 +1,83 @@
+<%- include('../template/cabecera',{tituloweb: "Cusrso"}) %>
+<%-  include('../template/navbar') %>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/style3.css">
+<link rel="stylesheet" href="../css/style2.css">
+<body>
+    <hr>
+    <hr>
+    <hr>
+    <h1 class="titulos">Suscribete a nuestro curso.</h1>
+    <h2 class="subtitulos_h2">Cuidemos el agua</h2>
+    <h4 class=" texto1">Aprendizaje esperado:</h4> <p class="titulos"> Propone y participa en acciones que contribuyan a prevenir la contaminación del agua en los ecosistemas.</p>
+    <h4 class=" texto1">Énfasis:</h4>
+    <p class="titulos">Analiza e identifica acciones para prevenir la contaminación del agua. Valora la participación y responsabilidad individuales en la toma de decisiones, y en la prevención y reducción o mitigación de la contaminación del agua. </p>
+    <h4 class="texto1">¿Qué vas a aprender? </h4>
+    <p class="titulos">Analizarás e identificarás acciones para prevenir la contaminación del agua, además de valorar tu participación y responsabilidad en la toma de decisiones para la prevención y reducción de la contaminación del agua</p>
+    <hr>
+
+    <div class="container">
+        <form name="custom_form" onsubmit="return validForm()" action="valid.html">
+            <div class="form_box">
+                <div class="input-row">
+                    <input type="text" placeholder="Nombre (s)*" name="name">
+                    <span class="error">Nombre (s)</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="Apellido Paterno*" name="apellidop">
+                    <span class="error">Apellido Paterno</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="Apellido Materno*" name="apellidom">
+                    <span class="error">Apellido Materno</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="Email*" name="email">
+                    <span class="error">Email</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="Edad" name="edad">
+                    <span class="error">Edad</span>
+                </div>
+                <div class="input-row">
+                    <select name="subject">
+                        <option>Genero*</option>
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                        <option>Otro</option>
+                    </select>
+                    <span class="error">seleccione una opción</span>
+                </div>
+                <div class="input-row">
+                    <select name="subject">
+                        <option>Grado de estudios</option>
+                        <option></option>
+                        <option>Técnico</option>
+                        <option>Bachillerato</option>
+                        <option>Licenciatura</option>
+                        <option>Maestría</option>
+                        <option>Bachillerato</option>
+                        <option>Especialidad</option>
+                        <option>Doctorado</option>
+                        <option>Ninguna de las anteriores</option>
+                    </select>
+                    <span class="error">seleccione una opción</span>
+                <div class="input-row">
+                    <label class="check_label" for="conditions">Acepta los Terminos y Condiciones</label>
+                    <input type="checkbox" name="conditions" id="conditions">
+                    <span class="error">Por favor Acepta los Terminos y Condiciones</span>
+                </div>
+                <input type="submit" value="Enviar">
+                <hr>
+                <p>
+                <button type="reset">Limpiar</button>
+                </p>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="../js/custom1.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
